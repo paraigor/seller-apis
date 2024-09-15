@@ -258,8 +258,8 @@ async def upload_stocks(watch_remnants, client_id, seller_token):
         seller_token (str): API-ключ продавца
 
     Returns:
-        tuple: Список артикулов товаров с остатками,
-            Список артикулов товаров с ненулевыми остатками
+        tuple: Список артикулов товаров с ненулевыми остатками,
+            Список артикулов товаров с остатками
 
     """
     offer_ids = get_offer_ids(client_id, seller_token)
